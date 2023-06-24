@@ -2,3 +2,25 @@
   background-color: cadetblue;
   padding: 1rem;
 }
+
+.navbar-text {
+  padding: 0 0 0 1rem;
+}
+
+.navbar-text span {
+  font-size: 1.2rem;
+}
+
+.whimsy-text {
+  display: inline-block;
+  color: maroon;
+  font-weight: bold;
+}
+
+.whimsy-text::first-letter {
+  font-size: 1.5rem;
+}
+
+.zone-text {
+  color: antiquewhite;
+}
