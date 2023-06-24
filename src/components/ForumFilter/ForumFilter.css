@@ -1,0 +1,12 @@
+.filter-container {
+  padding: 1rem;
+}
+
+.filter-selector {
+  padding: 8px 20px;
+  border: none;
+  background: none;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 8px;
+}

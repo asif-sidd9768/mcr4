@@ -1,0 +1,44 @@
+.sidebar-container{
+  padding: 2rem;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.sidebar-item {
+  display: block;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.sidebar-item:nth-child(1)  {
+  color: cadetblue;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  text-align: start;
+  width: 100%;
+}
+
+.sidebar-profile {
+  margin: 3rem 0 0 0;
+  text-align: center;
+  background-color: cadetblue;
+  padding: 1rem 0;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+}
+
+.sidebar-profile-icon {
+  font-size: 3rem;
+  color: black;
+}
+
+.sidebar-username {
+  font-size: 0.9rem ;
+  opacity: 0.6;
+}
+
+.sidebar-icon {
+  margin: 0 0.5rem 0 0;
+}

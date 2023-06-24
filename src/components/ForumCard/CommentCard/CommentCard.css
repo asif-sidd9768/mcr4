@@ -1,0 +1,25 @@
+.comment-container {
+
+}
+
+.comment-icon {
+  width: 35px;
+  margin: 0 0.5rem 0 0;
+}
+
+.comment-username {
+  margin: 0 0.5rem 0 0;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.comment-content {
+  margin:  0.2rem 0 0 0;
+}
+
+.comment-replying-to {
+  font-size: 0.8rem;
+}

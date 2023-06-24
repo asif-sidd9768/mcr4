@@ -1,0 +1,10 @@
+
+.detail-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.back-arrow-btn {
+  margin: 0 0.5rem 0 0;
+  cursor: pointer;
+}

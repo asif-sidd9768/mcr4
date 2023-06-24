@@ -1,0 +1,97 @@
+.forum-card-container {
+  padding: 1rem;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  margin: 1rem;
+}
+ 
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-icon {
+  font-size: 1.4rem;
+  margin: 0 0.5rem 0 0;
+}
+
+.card-posted-by {
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin: 0 0.3rem 0 0;
+}
+
+.card-username {
+  color: cadetblue;
+  margin: 0 0.5rem 0 0;
+}
+
+.card-circle {
+  font-size: 0.4rem;
+  margin: 0 0.5rem 0 0;
+}
+
+.card-post-time{
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
+
+.card-post-title {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.card-tags {
+  margin:  0 0 0.5rem 0;
+}
+
+.card-tag {
+  background-color: cadetblue;
+  margin: 0.3rem 0.3rem 0.3rem 0;
+  padding: 0.3rem;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+.card-post-desc {
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+}
+
+.card-divider {
+  margin: 1rem 0;
+  opacity: 0.5;
+}
+
+.card-votes {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.card-votes p {
+  cursor: pointer;
+  padding: 0.5rem;
+  color: white;
+}
+
+.card-votes p:nth-child(1){
+   background-color: green;
+    width: 100%;
+}
+
+.card-votes p:nth-child(2){
+  background-color: rgb(196, 193, 193);
+   width: 100%;
+}
+
+.card-votes p:nth-child(3){
+  background-color: red;
+   width: 100%;
+}
+
+.vote-icon {margin:  0 0.3rem 0 0;}
+
+.card-comments {
+  padding: 1rem;
+}
